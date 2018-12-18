@@ -1,5 +1,5 @@
 
-Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnologien" von Prof. Dr. Michael Beigl erstellt.
+Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnologien" (gehalten von Prof. Dr. Michael Beigl) erstellt.
 
 # Healthcoin (PoC)
 
