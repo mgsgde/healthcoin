@@ -1,4 +1,7 @@
-# Healthcoin (PoC für die Vorlesung "UBIQUITÄRE INFORMATIONSTECHNOLOGIEN" von Prof. Dr. Michael Beigl)
+
+Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnologien" von Prof. Dr. Michael Beigl erstellt.
+
+# Healthcoin (PoC)
 
 Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewegungssensoren erfasst die Fitness Aktivitäten einer Person und schickt der Person zur Belohnung regelmäßig via Blockchain Protokoll Tokens. Die Tokens heißen "Healthcoins". Das mobile Endgerät und die Healthcoins werden von Unternehmen herausgegeben werden, welche ein Interesse an der Gesundheit der jeweiligen Person haben (z.B. der Arbeitgeber oder die Krankenkasse). Die Healthcoins können gegen Waren und Dienstleistungen eingetauscht werden (z.B. Waren und Dienstleistungen des Unternehmens-Konsortiums, welches die Healthcoins via Blockchain emittiert).    
  
