@@ -23,12 +23,9 @@ Der Nutzer trägt das mobile Endgerät mit sich bspw. in Form von einer smart wa
 
 ![Image of architecture](/images/architecture.jpg)
 
-- ** Prosa text
-- ** Video
-- ** bild von etherscan 
-![Image of etherscan](/images/etherscan.png)
+Der Healthcoin Token Contract ist [hier](https://etherscan.io/token/0x39533ce7589574205f20b34c028fe4f30ab68e3b) einsehbar.
 
-- ** bild von app  
+Mobiles Wallet zur Verwaltung von Healthcoins.
 ![Image of wallet1](/images/wallet1.png)
 
 
