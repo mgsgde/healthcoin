@@ -15,10 +15,10 @@
 - ESP32-DevKitC
 - LCD1602 Display 
 
-![Image of components](/images/components.jpg)
-
 **Anmerkung**: 
 Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen. So ist der Arduino Mega Microcontroller überflüssig, da der ESP32 Microcontroller auf dem ESP32-DevKitC Board zur Ansteuerung des MPU-6050 Moduls ausreicht. Zudem kann das ESP32-DevKitC Development Board durch einen ESP32-WROOM-32 Microcontroller ersetzt werden. Desweiteren ist der Akku üderdimensioniert. 
+
+![Image of components](/images/components.jpg)
 
 # Funktionsweise
 
@@ -31,7 +31,7 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 
 - ** bild von app  
 ![Image of wallet1](/images/wallet1.png)
-![Image of wallet2](/images/wallet2.png)
+
 
 # Todo
 
