@@ -9,6 +9,9 @@
 # Aufbau
 
 - ** bild vom breadboard
+![Image of components](https://gitlab.com/mgsgde/healthcoin.appliance.us.kit/blob/master/images/components.jpg)
+
+
 - ** Komponeneten aufzählen
 
 - Arduino Mega
