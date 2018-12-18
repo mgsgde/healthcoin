@@ -28,24 +28,33 @@ Bild 2: Mobiles Wallet zur Verwaltung der Healthcoins
 
 ![Image of wallet1](/images/wallet1.png)
 
-
 # Todo
 
-- Eine mobile App implementieren, so dass die Appliance nicht auf WiFi angewiesen ist und via bluetooth über ein smartphone mit dem server kommunizieren kann. 
-- Nutzer muss seine Blockchain Adresse eingeben können. Momentan ist die Adresse des Nutzer hard gecoded auf dem Server.
+- Es sollte eine mobile Applikation implementiert werden, so dass die Appliance nicht auf WiFi angewiesen ist und via Bluetooth über ein smartphone mit dem Server kommunizieren kann. 
+- Der Nutzer sollte seine Blockchain Adresse eingeben können. Momentan ist die Adresse des Nutzers "hard gecoded" auf dem Server.
 - Der Server Aufruf von der Appliance erfolgt unverschlüsselt via HTTP. Es sollte hier eine beidseitige Authentifizierung statt finden und Daten sollten verschlüsselt versendet werden.
-- Die Funktion, welche auf Basis der Bewegungsdaten auf die Fitness Aktivität schließt, muss verbessert werden. Mometan wird lediglich geprüft ob die Summe der x,y,z Beschleunigungsdaten einen (durch Ausprobieren bestimmten) Schwellenwert überschreitet. 
-- Die Auswahl der Elektronik Komponenten muss unter ökonomischen und funktionellen Gesichtspunkten geschehen. 
+- Die Funktion, welche auf Basis der Bewegungsdaten auf die Fitness Aktivität schließt, sollte verbessert werden. Mometan wird lediglich geprüft ob die Summe der x,y,z Beschleunigungsdaten einen (durch Ausprobieren bestimmten) Schwellenwert überschreitet. 
+- Die Auswahl der Elektronik Komponenten sollte unter ökonomischen und funktionellen Gesichtspunkten neu durchdacht werden. 
 
 # Mehrwert
 
-- Kunde, Arbeitsgeber, Krankenkassen: HealthCoins als Anreiz für gesundheitsbewussten Lebensst
+- Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen. 
 
-- Unternehmen, Krankenkassen: Umtausch von HealthCoins in Value-Added Produkte/Services und/oder in
-Fiat-/Kryptogeld 
-	- Funktioniert sowohl Unternehmensspezifisch wie auch als Branchenstandard.  
+- Die Healthcoin kann die Nutzer motivieren sich zu bewegen. Mäßige Bewegung fördert die Gesundheit und reduziert somit die Wahrscheinlichkeit der Nutzer krank zu werden. 
 
-- Ärzte: (optional) Dokumentation von gesundheitsbewusster Aktivität auf der Blockchain möglich => Digital Health Record 
+- Arbeitsgeber profitieren von den ausbleibenden Kosten für die Krankheitstage. 
+
+- Krankenkassen profitieren von den ausbleibenden Kosten für Arztbesuch und Medikamente.  
+
+- Krankenkassen würden mit der Appliance eine Kundenschnittstelle erhalten. 
+
+- Unternehmen und Krankenkassen können Healthcoins für den Vertrieb ihrer eigenen Waren und Dienstleistungen nutzen. 
+
+- Die Healthcoin kann von Krankenkassen als Vertriebs- und Marketingmaßnahme zur Gewinnung neuer Kunden genutzt werden. 
+
+- Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu zu positiven Netzwerkeffekten führen. 
+
+- Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt in Richtung digitaler Gesundheitsakte sein 
 
 
 
