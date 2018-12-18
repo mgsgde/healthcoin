@@ -5,31 +5,38 @@
 - Sender sind Unternehmen welche Interesse an der Gesundheit von der jeweiligen Person haben. (Arbeitgeber, Krankenkasse)
 
 - => Ein digitaler Wegbereiter für Fitnesstraining, Vertriebsaktionen und digitale Transaktionen aller Art.
+ 
+# Aufbau
 
-# How does it work? 
+- ** bild vom breadboard
+- ** Komponeneten aufzählen
 
-- ** Components
+- Arduino Mega
+- MPU-6050 Accelerometer + Gyro
+- Logic-Level-Shifter (5V zu 3.3V)
+- Akku
+- ESP32-DevKitC
+- LCD1602 Display 
 
-- bild vom breadboard
-- Komponeneten aufzählen
-- Anmerkungen warum arduino mega, großer akku, esp dev board
+- ** Anmerkungen warum arduino mega, großer akku, esp dev board
 
-- ** architektur bild
+- ** Software Architektur Bild
 
-- ** Technical Functionality
+# Funktionsweise
 
-- Prosa text
-- Video
-- bild von etherscan 
-- bild von app  
+- ** Prosa text
+- ** Video
+- ** bild von etherscan 
+- ** bild von app  
 
 # Todo
 
+- app implementieren, sodass appliance via bluetooth (statt wifi) über eine smartphone app mit dem server kommunizieren kann. 
 - verschüsselung
 - schrittzähl algorithmus verbessern
 - passendere und billigere Komponenten verbauen, so dass es in eine smart watch passt 
 
-# Added Value
+# Mehrwert
 
 - Kunde, Arbeitsgeber, Krankenkassen: HealthCoins als Anreiz für gesundheitsbewussten Lebensst
 
