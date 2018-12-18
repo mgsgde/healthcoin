@@ -19,6 +19,7 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 
 # Funktionsweise
 
+Der Nutzer trägt das mobile Endgerät bspw. in Form von einer smart watch beim Laufen. Das mobile Endgerät ist via ESP32-DevKitC Board über WiFi mit dem Internet verbunden. Das mobile Endgerät erfasst die Bewegungsdaten via Beschleunigungsmesser und Kreiselkompass. Einmal pro Sekunde werden Bewegungsdaten erfasst. Wenn das mobile Endgerät anhand der Bewegungsdaten auf eine Fitness Aktivität zurückschließt, dann bekommt der Nutzer einen Punkt. Wenn der Nutzer eine bestimmte Anzahl von Punkten erreicht hat, dann sendet das mobile Endgerät via HTTP ein Signal an den Server. Der Server erstellt und signiert eine Blockchain Transaktion, welche dem Nutzer eine Healthcoin zuspricht. Die Transaktion wird via HTTPS an einen Blockchain Node Betreiber namens "Infura" geschickt. Infura propagiert die Transaktion anschließden im Blockchain Netzwerk. Sobald die Transaktion in die Blockchain eingearbeitet wurde, kann der Nutzer mit einem Wallet seiner Wahl über die Healthcoins verfügen.       
 
 ![Image of architecture](/images/architecture.jpg)
 
