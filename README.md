@@ -6,7 +6,7 @@
 
 - => Ein digitaler Wegbereiter für Fitnesstraining, Vertriebsaktionen und digitale Transaktionen aller Art.
  
-# Aufbau:
+# Komponenten:
 
 - Arduino Mega
 - MPU-6050 Accelerometer + Gyro
