@@ -1,10 +1,7 @@
 # Healthcoin
 
-- Mobiles Endgeräte welches Fitness Aktivität von einer Person trackt und der Person zur Belohnung via Blockchain Tokens ("Healthcoins") oder Krypto Geld zuschickt. 
+Ein mobiles Endgerät ausgestattet mit Bewegungssensoren erfasst die Fitness Aktivitäten einer Person und schickt der Person zur Belohnung regelmäßig via Blockchain Protokoll Tokens. Die Tokens heißen "Healthcoins". Das mobile Endgerät und die Healthcoins werden von Unternehmen herausgegeben werden, welche ein Interesse an der Gesundheit der jeweiligen Person haben (zum Beispiel der Arbeitgeber oder die Krankenkasse). Die Healthcoins können gegen Waren und Dienstleistungen eingetauscht werden (zum Beispiel Waren und Dienstleistungen des Unternehmens-Konsortiums, welches die Healthcoins via Blockchain emittiert).    
 
-- Sender sind Unternehmen welche Interesse an der Gesundheit von der jeweiligen Person haben. (Arbeitgeber, Krankenkasse)
-
-- => Ein digitaler Wegbereiter für Fitnesstraining, Vertriebsaktionen und digitale Transaktionen aller Art.
  
 # Komponenten:
 
@@ -21,6 +18,7 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 ![Image of components](/images/components.jpg)
 
 # Funktionsweise
+
 
 ![Image of architecture](/images/architecture.jpg)
 
