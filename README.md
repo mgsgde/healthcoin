@@ -38,23 +38,23 @@ Bild 2: Mobiles Wallet zur Verwaltung der Healthcoins
 
 # Mehrwert
 
-- Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen. 
+Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen. 
 
-- Die Healthcoin kann die Nutzer motivieren sich zu bewegen. Mäßige Bewegung fördert die Gesundheit und reduziert somit die Wahrscheinlichkeit der Nutzer krank zu werden. 
+Die Healthcoin kann die Nutzer motivieren sich zu bewegen. Mäßige Bewegung fördert die Gesundheit und reduziert somit die Wahrscheinlichkeit der Nutzer krank zu werden. 
 
-- Arbeitsgeber profitieren von den ausbleibenden Kosten für die Krankheitstage. 
+Arbeitsgeber profitieren von den ausbleibenden Kosten für die Krankheitstage. 
 
-- Krankenkassen profitieren von den ausbleibenden Kosten für Arztbesuch und Medikamente.  
+Krankenkassen profitieren von den ausbleibenden Kosten für Arztbesuch und Medikamente.  
 
-- Krankenkassen würden mit der Appliance eine Kundenschnittstelle erhalten. 
+Krankenkassen würden mit der Appliance eine Kundenschnittstelle erhalten. 
 
-- Unternehmen und Krankenkassen können Healthcoins für den Vertrieb ihrer eigenen Waren und Dienstleistungen nutzen. 
+Unternehmen und Krankenkassen können Healthcoins für den Vertrieb ihrer eigenen Waren und Dienstleistungen nutzen. 
 
-- Die Healthcoin kann von Krankenkassen als Vertriebs- und Marketingmaßnahme zur Gewinnung neuer Kunden genutzt werden. 
+Die Healthcoin kann von Krankenkassen als Vertriebs- und Marketingmaßnahme zur Gewinnung neuer Kunden genutzt werden. 
 
-- Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu zu positiven Netzwerkeffekten führen. 
+Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu zu positiven Netzwerkeffekten führen. 
 
-- Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt in Richtung digitaler Gesundheitsakte sein 
+Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt in Richtung digitaler Gesundheitsakte sein 
 
 
 
