@@ -6,10 +6,7 @@
 
 - => Ein digitaler Wegbereiter für Fitnesstraining, Vertriebsaktionen und digitale Transaktionen aller Art.
  
-# Aufbau
-
-
-## Komponenten:
+# Aufbau:
 
 - Arduino Mega
 - MPU-6050 Accelerometer + Gyro
@@ -23,9 +20,9 @@
 **Anmerkung**: 
 Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen. So ist der Arduino Mega Microcontroller überflüssig, da der ESP32 Microcontroller auf dem ESP32-DevKitC Board zur Ansteuerung des MPU-6050 Moduls ausreicht. Zudem kann das ESP32-DevKitC Development Board durch einen ESP32-WROOM-32 Microcontroller ersetzt werden. Desweiteren ist der Akku üderdimensioniert. 
 
-- ** Software Architektur Bild
-
 # Funktionsweise
+
+![Image of components](/images/healthcoin.appliance.us.kit.jpg)
 
 - ** Prosa text
 - ** Video
