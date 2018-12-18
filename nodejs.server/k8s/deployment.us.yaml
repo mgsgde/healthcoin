@@ -1,0 +1,27 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: usserverproduction
+  labels:
+    app: usserverproduction
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: usserverproduction
+      labels:
+        app: usserverproduction
+    spec:
+      containers:
+        - name: usserverproduction
+          env:                                                                
+            - name: NODE_ENV
+              value: PRODUCTION                
+          image: eu.gcr.io/algebraic-envoy-218317/us_server
+          ports:
+            - containerPort: 8080        
+
+
+              
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "server.nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=PRODUCTION nodemon ./server.js --watch .",
+    "deployContracts": "rm -r contracts.truffle/build ; cd contracts.truffle && NODE_ENV=DEVELOPMENT truffle deploy --network mainnet",
+    "test": "NODE_ENV=PRODUCTION mocha tests",
+    "start": "NODE_ENV=PRODUCTION node ./server.js",
+    "deployServer": "bash ./k8s/build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "promise-timeout": "^1.3.0",
+    "truffle-privatekey-provider": "^1.0.0",
+    "web3": "^1.0.0-beta.36"
+  }
+}
