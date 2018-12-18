@@ -1,5 +1,3 @@
 node_modules
-
-
-
-nodejs\.server/config\.js
+k8s
+secret_env_variables.sh
