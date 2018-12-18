@@ -8,10 +8,10 @@
  
 # Aufbau
 
-- ** bild vom breadboard
 ![Image of components](/images/components.jpg)
+todo: - helleres bild vom breadboard
 
-- ** Komponeneten aufzählen
+Verbaute Komponenten:
 
 - Arduino Mega
 - MPU-6050 Accelerometer + Gyro
