@@ -22,12 +22,16 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 
 # Funktionsweise
 
-![Image of components](/images/healthcoin.appliance.us.kit.jpg)
+![Image of architecture](/images/architecture.jpg)
 
 - ** Prosa text
 - ** Video
 - ** bild von etherscan 
+![Image of etherscan](/images/etherscan.png)
+
 - ** bild von app  
+![Image of wallet1](/images/wallet1.png)
+![Image of wallet2](/images/wallet2.png)
 
 # Todo
 
