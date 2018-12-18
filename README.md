@@ -11,7 +11,7 @@
 ![Image of components](/images/components.jpg)
 todo: - helleres bild vom breadboard
 
-Verbaute Komponenten:
+## Komponenten:
 
 - Arduino Mega
 - MPU-6050 Accelerometer + Gyro
@@ -19,6 +19,9 @@ Verbaute Komponenten:
 - Akku
 - ESP32-DevKitC
 - LCD1602 Display 
+
+**Anmerkung**: 
+Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen. So ist der Arduino Mega Microcontroller überflüssig, da der ESP32 microcontroller auf dem ESP32-DevKitC zur Ansteuerung des MPU-6050 Moduls ausreicht. Zudem kann das ESP32-DevKitC Development Board durch einen ESP32-WROOM-32 Microcontroller ersetzt werden. Desweiteren ist der Akku üderdimensioniert. 
 
 - ** Anmerkungen warum arduino mega, großer akku, esp dev board
 
