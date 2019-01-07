@@ -5,8 +5,6 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewegungssensoren erfasst die Fitness Aktivitäten einer Person und schickt der Person zur Belohnung regelmäßig via Blockchain Protokoll Tokens. Die Tokens heißen "Healthcoins". Das mobile Endgerät und die Healthcoins werden von Unternehmen herausgegeben werden, welche ein Interesse an der Gesundheit der jeweiligen Person haben (z.B. der Arbeitgeber oder die Krankenkasse). Die Healthcoins können gegen Waren und Dienstleistungen eingetauscht werden (z.B. Waren und Dienstleistungen des Unternehmens-Konsortiums, welches die Healthcoins via Blockchain emittiert).    
  
- ![Image of components](/images/sketch.healthcoin.jpg)
- 
 # Komponenten:
 
 - Arduino Mega
@@ -19,7 +17,11 @@ Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewe
 **Anmerkung**: 
 Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen. So ist der Arduino Mega Microcontroller überflüssig, da der ESP32 Microcontroller auf dem ESP32-DevKitC Board zur Ansteuerung des MPU-6050 Moduls ausreicht. Zudem kann das ESP32-DevKitC Development Board durch einen ESP32-WROOM-32 Microcontroller ersetzt werden. Desweiteren ist der Akku üderdimensioniert. 
 
-![Image of components](/images/components.jpg)
+## Schema
+![Image of components](/images/healthcoin.components.fritzing.png)
+
+## Foto
+![Image of components](/images/healthcoin.components.foto.png)
 
 # Funktionsweise
 
@@ -62,4 +64,6 @@ Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich al
 Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
 
 
+# Sonstiges
 
+ ![Image of components](/images/sketch.healthcoin.jpg)

@@ -17,7 +17,7 @@ char* convert_int16_to_str(int16_t i) {
 
 int points = 0; 
 int maxPoints = 10;
-float threshold = 8000; 
+float threshold = 17000; 
 
 void setup() {
   Serial.begin(9600);
