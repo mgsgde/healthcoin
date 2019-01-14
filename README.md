@@ -69,7 +69,7 @@ Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Health
  ![Image of components](/images/sketch.healthcoin.jpg)
 
  
-# Cocomo (todo)
+# Cocomo (Constructive Cost Model)
 
 Cocomo(SLOC = 493, Mode: Semi Detached) = 1.4 Person-Months
 
@@ -84,7 +84,7 @@ Quelle: http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/kutcher/kutcher
 - Derek Jones hat Fehler in der orginalen Analyse aufgedeckt (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
 - Annahme der Linearität nicht bewiesen?
 
-# COSYSMO
+# COSYSMO (Constructive Systems Engineering Cost Model)
 
 **System Requirements**:
 1. The Appliance shall count steps
