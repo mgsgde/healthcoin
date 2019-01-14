@@ -126,8 +126,8 @@ Effort Multipliers:
  ![Image of components](/images/healthcoin.cosysmo.jpg)
 
 
-
 ## Kritik
 
-- die Güte des Systems wurde nirgends verifiziert
+- Ursprung und Alter der Trainingsdaten zur Bestimmung der Parameter nicht bekannt 
+- Güte des Systems nicht spezifiert
 
