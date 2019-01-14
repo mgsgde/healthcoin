@@ -69,37 +69,24 @@ Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Health
  ![Image of components](/images/sketch.healthcoin.jpg)
 
  
-# Cocomo
+# Cocomo (todo)
+
+Cocomo(SLOC = 493, Mode: Semi Detached) = 1.4 Person-Months
+
+Quelle: http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/kutcher/kutcher.html 
 
 
 ## Kritik
-
 - devops werden nicht berücksichtigt (via k8s deployen, infura Zugang besorgen)
+- Regressionsdaten sind veraltet
+- Boehm hat die Regression mit 64 bzw 161 Messungen durchgeführt. Für so ein komplexes Problem sind das viel zu wenige Messungen.
+- Derekt Jones kam zu anderen Ergebnissen, so hat boehm z.B. die outlier nicht berücksichtigtg (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
+- Derek Jones hat Fehler in der orginalen Analyse aufgedeckt (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
+- Annahme der Linearität nicht bewiesen?
 
-SLOC = 493	 
+# COSYSMO
 
-Software Project Class = Semi-detached
-	- wurde zuvor noch nie gemacht
-	- blockchain entwickler, web entwickler, controller entwickler müssten zusammenarbeiten
-
-Model = Basic Cocomo 
-
-http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/
-
-todo: 
-- Ausrechnen und Begründung aufschreiben warum das Quatsch ist
-http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/
-
-- keine aktuellen Faktoren für die Regression gefunden
-- Boehm hat die Regression mit 64 bis 161 Messungen durchgeführt. für so ein komplexes Problem sind das viel zu wenige Messungen
-- Derekt Jones kam zu anderen Ergebnissen, so hat boehm z.B. die outlier nicht berücksichtigtg
-- Derek Jones hat Fehler in der orginalen Analyse aufgedeckt
-- in Cocomo II wurden 161 messungen erhoben. Laut einen Kommentator kommt man mit den 161 Messungen auf komplett andere Werte für die Faktoren
-=> Ist ein schönes Modell, aber regression + die wenige Daten reichen nicht aus um seriöse aussageb über die kosten zu treffen. Falls man mehr daten hat, vllt andere methoden des maschinellen Lernens anwenden wie neuronale netzwerke, denn Linearer Zusammenhang ist auch eine starke annahme 
-
-# Cosysmo
-
-System Requirements:
+**System Requirements**:
 1. The Appliance shall count steps
 2. The Appliance shall show the progress of counting steps on a Display
 3. The Appliance shall communicate via wlan with a webserver
@@ -107,27 +94,26 @@ System Requirements:
 5. The Appliance shall have its own mobile power supply
 6. The Webserver shall send transactions to a Blockchain node
 
-Interfaces:
+**Interfaces:**
 1. arduino to esp32 module
 2. esp32 module to werbserver
 3. webserver to blockchain node
 
-Algorithms:
+**Algorithms:**
 1. step counting algorithms
 
-Operations Scenarios:
+**Operations Scenarios:**
 1. Walk with Appliance and check whether Display shows step count
 2. Walk with Appliance and check whether tokens get transferred
 
-Effort Multipliers:
+**Effort Multipliers:**
 1. high Technology Risk
 
-## COSYSMO Result:
+## COSYSMO Ergebnis:
  ![Image of components](/images/healthcoin.cosysmo.jpg)
 
 
 ## Kritik
-
 - Ursprung und Alter der Trainingsdaten zur Bestimmung der Parameter nicht bekannt 
 - Güte des Systems nicht spezifiert
 
