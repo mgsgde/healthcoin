@@ -43,7 +43,7 @@ void loop() {
   accelerometer_z = Wire.read()<<8 | Wire.read(); 
 
   double value = sqrt(pow(accelerometer_x, 2) + powf(accelerometer_y, 2) + powf(accelerometer_z, 2));
-
+  
   if (value >= threshold) {
      points = points + 1;
   }
