@@ -122,6 +122,7 @@ Operations Scenarios:
 Effort Multipliers:
 1. high Technology Risk
 
+## COSYSMO Result:
  ![Image of components](/images/healthcoin.cosysmo.jpg)
 
 
