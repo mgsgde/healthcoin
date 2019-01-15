@@ -115,9 +115,11 @@ Quelle: http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/kutcher/kutcher
 
 **Hardware Costs:** 
 
-- ESP32 ESP-WROOM-32 IoT Wifi Wlan BLE Module+ESP-32S Adapter Board
-- $ 3.31
-- https://www.aliexpress.com/item/ESP32-ESP-WROOM-32-IoT-Wifi-Wlan-BLE-Module-ESP-32S-Adapter-Board/32933002394.html?spm=2114.search0104.3.50.7fd04071oSosfn&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=68ce317f-37a6-4a4d-b34a-fa940a8ac824-7&algo_pvid=68ce317f-37a6-4a4d-b34a-fa940a8ac824&transAbTest=ae803_4
+1. ESP32 ESP-WROOM-32 IoT Wifi Wlan BLE Module+ESP-32S Adapter Board
+⋅⋅*  $ 3.31
+⋅⋅*  https://www.aliexpress.com/item/ESP32-ESP-WROOM-32-IoT-Wifi-Wlan-BLE-Module-ESP-32S-Adapter-Board/32933002394.html?spm=2114.search0104.3.50.7fd04071oSosfn&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=68ce317f-37a6-4a4d-b34a-fa940a8ac824-7&algo_pvid=68ce317f-37a6-4a4d-b34a-fa940a8ac824&transAbTest=ae803_4
+
+---
 
 - GY-521 MPU-6050 MPU6050 Module 3 Axis analog gyro sensors+ 3 Axis Accelerometer Module
 - $ 0.75 
