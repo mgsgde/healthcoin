@@ -150,6 +150,7 @@ Quelle: http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/kutcher/kutcher
 - https://www.aliexpress.com/item/AA-Size-Power-Battery-Storage-Case-Box-Holder-Leads-With-1-2-3-4-Slots/32818907820.html?spm=2114.search0104.3.1.ff0543fdDNmUl3&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=354096f6-633a-46ac-98cb-a2b1f7b8ef82-0&algo_pvid=354096f6-633a-46ac-98cb-a2b1f7b8ef82&transAbTest=ae803_4
 
 **Total Costs: $ 9.60** 
+
 **50% Rule of Thumb: $ 19.2** (Direct Costs, Gross Margin, Average Discount)
 
 **Anmerkung:**
@@ -157,6 +158,7 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 
 # Sonstiges
 
+## First Sketch
  ![Image of components](/images/sketch.healthcoin.jpg)
 
  
