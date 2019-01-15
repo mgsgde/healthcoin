@@ -64,6 +64,10 @@ Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich al
 Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
 
 
+# Business Model
+
+ ![Image of components](/images/healthcoin.businessmodelcanvas.jpg)
+
 # Cocomo (Constructive Cost Model)
 
 Cocomo(SLOC = 493, Mode: Semi Detached) = 1.4 Person-Months
