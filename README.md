@@ -166,51 +166,62 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 (based on the pricinple of the Design Council Design Thinking Process: First diverge, then converge)
 
 
-1. economy of things (e.g. auto bezahlt automatisch die elade säule, pay per use werkzeug/machine)
+1. Economy of things (e.g. auto bezahlt automatisch die elade säule, pay per use werkzeug/machine)
 - Engineer: 6
 - Managmenet: 3
 - Production: 5
 - Marketing: 3
 - User: 3
 
-2. hardware wallet (arduino stores private key and is capable of signing tx)
+---
+
+
+2. Hardware wallet (arduino stores private key and is capable of signing tx)
 - Engineer: 6
 - Managmenet: 10
 - Production: 8
 - Marketing: 10
 - User: 10
+- **Aber existiert bereits.**
 
-**Aber existiert bereits.**
+---
 
-3. appliance welche schritte zählt und falls eine schrittzahl erreicht wurde krypto geld an träger auszahlt.  
+3. Appliance welche schritte zählt und falls eine schrittzahl erreicht wurde krypto geld an träger auszahlt.  
 - Engineer: 7
 - Managmenet: 5
 - Production: 7
 - Marketing: 8
 - User: 7
 
-4. blockchain door opener that opens when crypto coins are sent to a smart contract (e.g. rent cars, pay rent for apartment ...) 
+---
+
+4. Blockchain door opener that opens when crypto coins are sent to a smart contract (e.g. rent cars, pay rent for apartment ...) 
 - Engineer: 6
 - Managmenet: 3
 - Production: 4
 - Marketing: 4
 - User: 3
 
-5. appliance die an einem Boxhandschuh befestigt wird und geschwindigkeit und beschleunigung misst
+---
+
+5. Appliance die an einem Boxhandschuh befestigt wird und geschwindigkeit und beschleunigung misst
 - Engineer: 9
 - Managmenet: 10
 - Production: 9
 - Marketing: 1
 - User: 1
 
-6. appliance welche via GPS Geräte tracked
+---
+
+6. Appliance welche via GPS Geräte tracked
 - Engineer: 8
 - Managmenet: 7
 - Production: 7
 - Marketing: 7
 - User: 8
+- **Aber existiert bereits.**
 
-**Aber existiert bereits.**
+---
 
 7. LED Weihnachts Beleuchtung. welche einen QR code oder URL anzeigen kann. Der QR code bzw die URL verweisen auf eine crypto Adresse, an welcher man crypto coins zahlen kann. Wenn eine Zahlung eintrifft dann geht die Lichterkette an und ein random Programm wird abgespielt
 - Engineer: 5
