@@ -162,8 +162,8 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 
 # Sonstiges
 
-## Find Problem with 10 + 10 Method 
-(based on the pricinple of the Design Council Design Thinking Process: First diverge, then converge)
+## Problemfindung mit der 10+10 Methode
+(based on the principle of the Design Council Design Thinking Process: First diverge, then converge)
 
 
 1. Economy of things (e.g. auto bezahlt automatisch die elade säule, pay per use werkzeug/machine)
@@ -230,6 +230,66 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - Marketing: 7
 - User: 7
  
+## Technologie
+
+### Datenübertragungsprotokolle
+
+#### Interface: Arduino to ESP32 Modul
+
+**UART - Universal Asynchronous Receiver Transmitter** 
+
+- communication is serial
+- communication is asynchronous = no clock
+- bidirectional => only two devices
+- two cables for transmitting, receiving signals
+- Format: Startbit, 7xDatabits, ParityBit, EndBit
+
+Pro:
+- Simple hardware to connect two devices with only two cables
+
+Contra: 
+- Langsamer als I2C (maximal 115200 Bit/Second (UART) vs 3.2 Mega Bit/Second (I2C))
+- not a bus => only two devices can communicate with each other
+- Baudrate needs to be manually implemented on all devices
+
+Sources:
+https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
+https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
+https://www.arduino.cc/en/Reference/softwareSerial
+https://www.youtube.com/watch?v=ZzRXKDkMBhA
+http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
+
+
+#### Interface: Arduino to Accelerometer**
+
+**I2C - Inter Integrated Circuit**
+
+- communcation is synchronous => Clock Line
+- communcation is serial
+- bus => multiple devices can communicate 
+	- master / slave: 
+		- master controles Clock line
+		- master is the only one that can initiate a transfer 
+		- master can read and write to/from slave => data transfer can happen in both directions
+- Format Writing: Start bit, typically 7 bits for addresses, Write Bit, Register Number, Write Data bytes, Stopbit
+- Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, device address (typically 7 bits), >>Read Data bytes<<, Stopbit
+- I2C level shifters which can be used to connect to two I2C buses with different voltages.
+
+Pro:
+- bus => multiple devices 
+- faster than UART
+
+Contra:
+- more complex than UART
+
+Sources:
+https://robot-electronics.co.uk/i2c-tutorial
+https://www.youtube.com/watch?v=DsSBTYbXAKg
+https://learn.sparkfun.com/tutorials/i2c/all
+https://en.wikipedia.org/wiki/Clock_signal
+https://www.youtube.com/watch?v=wx0NyUfpm48
+http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
+
 
 ## First Sketch
  ![Image of components](/images/sketch.healthcoin.jpg)
