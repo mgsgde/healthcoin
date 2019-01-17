@@ -258,7 +258,7 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
 
 
-### Interface: Arduino to Accelerometer**
+### Interface: Arduino to Accelerometer
 
 **I2C - Inter Integrated Circuit**
 
