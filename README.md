@@ -232,9 +232,7 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
  
 ## Technologie
 
-### Datenübertragungsprotokolle
-
-#### Interface: Arduino to ESP32 Modul
+### Interface: Arduino to ESP32 Modul
 
 **UART - Universal Asynchronous Receiver Transmitter** 
 
@@ -244,15 +242,15 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - two cables for transmitting, receiving signals
 - Format: Startbit, 7xDatabits, ParityBit, EndBit
 
-**Pro: **
+**Pro:**
 - Simple hardware to connect two devices with only two cables
 
-**Contra: **
+**Contra:**
 - Langsamer als I2C (maximal 115200 Bit/Second (UART) vs 3.2 Mega Bit/Second (I2C))
 - not a bus => only two devices can communicate with each other
 - Baudrate needs to be manually implemented on all devices
 
-**Sources: **
+**Sources:**
 - https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
 - https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
 - https://www.arduino.cc/en/Reference/softwareSerial
@@ -260,7 +258,7 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
 
 
-#### Interface: Arduino to Accelerometer**
+### Interface: Arduino to Accelerometer**
 
 **I2C - Inter Integrated Circuit**
 
