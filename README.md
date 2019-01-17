@@ -244,20 +244,20 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - two cables for transmitting, receiving signals
 - Format: Startbit, 7xDatabits, ParityBit, EndBit
 
-Pro:
+**Pro: **
 - Simple hardware to connect two devices with only two cables
 
-Contra: 
+**Contra: **
 - Langsamer als I2C (maximal 115200 Bit/Second (UART) vs 3.2 Mega Bit/Second (I2C))
 - not a bus => only two devices can communicate with each other
 - Baudrate needs to be manually implemented on all devices
 
-Sources:
-https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
-https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
-https://www.arduino.cc/en/Reference/softwareSerial
-https://www.youtube.com/watch?v=ZzRXKDkMBhA
-http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
+**Sources: **
+- https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
+- https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
+- https://www.arduino.cc/en/Reference/softwareSerial
+- https://www.youtube.com/watch?v=ZzRXKDkMBhA
+- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
 
 
 #### Interface: Arduino to Accelerometer**
@@ -275,20 +275,20 @@ http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
 - Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, device address (typically 7 bits), >>Read Data bytes<<, Stopbit
 - I2C level shifters which can be used to connect to two I2C buses with different voltages.
 
-Pro:
+**Pro:**
 - bus => multiple devices 
 - faster than UART
 
-Contra:
+**Contra:**
 - more complex than UART
 
-Sources:
-https://robot-electronics.co.uk/i2c-tutorial
-https://www.youtube.com/watch?v=DsSBTYbXAKg
-https://learn.sparkfun.com/tutorials/i2c/all
-https://en.wikipedia.org/wiki/Clock_signal
-https://www.youtube.com/watch?v=wx0NyUfpm48
-http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
+**Sources:**
+- https://robot-electronics.co.uk/i2c-tutorial
+- https://www.youtube.com/watch?v=DsSBTYbXAKg
+- https://learn.sparkfun.com/tutorials/i2c/all
+- https://en.wikipedia.org/wiki/Clock_signal
+- https://www.youtube.com/watch?v=wx0NyUfpm48
+- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
 
 
 ## First Sketch
