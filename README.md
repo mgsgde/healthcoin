@@ -270,7 +270,7 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 		- master is the only one that can initiate a transfer 
 		- master can read and write to/from slave => data transfer can happen in both directions
 - Format Writing: Start bit, typically 7 bits for addresses, Write Bit, Register Number, Write Data bytes, Stopbit
-- Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, device address (typically 7 bits), >>Read Data bytes<<, Stopbit
+- Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, register address, >>Read Data bytes<<, Stopbit
 - I2C level shifters which can be used to connect to two I2C buses with different voltages.
 
 **Pro:**
@@ -288,6 +288,8 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - https://www.youtube.com/watch?v=wx0NyUfpm48
 - http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
 
+## Ideate: Alternative Lösungsmöglichen
+ ![Image of components](/images/ideateLösungen.healthcoin.jpg)
 
 ## First Sketch
  ![Image of components](/images/sketch.healthcoin.jpg)
