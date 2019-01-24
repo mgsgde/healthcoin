@@ -295,5 +295,9 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
  ![Image of components](/images/sketch.healthcoin.jpg)
 
 
+## Experten / Kunden Meinungen
 
-
+- Name: Unbekannt
+- Position: Mitarbeiter bei der Debeka
+- Feedback: 
+	- Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen.
