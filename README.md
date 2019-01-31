@@ -1,6 +1,6 @@
 
 # Healthcoin 
-Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnologien" auf Basis des **Unified Design Thinking Model** (gehalten von Prof. Dr. Michael Beigl) erstellt.
+Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnologien" (gehalten von Prof. Dr. Michael Beigl) erstellt. Es wurde das **Unified Design Thinking Model** verwendet.
 
 ## 1. Discover: Problemfindung mit der 10+10 Methode 
 
