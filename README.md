@@ -200,10 +200,10 @@ Der Nutzer trägt das mobile Endgerät beispielsweise in Form von einer smart wa
 **Anmerkung**: 
 Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen. So ist der Arduino Mega Microcontroller überflüssig, da der ESP32 Microcontroller auf dem ESP32-DevKitC Board zur Ansteuerung des MPU-6050 Moduls ausreicht. Zudem kann das ESP32-DevKitC Development Board durch einen ESP32-WROOM-32 Microcontroller ersetzt werden. Desweiteren ist der Akku üderdimensioniert. 
 
-### Bild 3: Prototyp
+### Prototyp
 ![Image of components](/images/healthcoin.components.foto.png)
 
-### Bild 4: Mobiles Wallet zur Verwaltung der Healthcoins
+### Mobiles Wallet zur Verwaltung der Healthcoins
 
 ![Image of wallet1](/images/wallet1.png)
 
