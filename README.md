@@ -158,7 +158,7 @@ Quelle: http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/kutcher/kutcher
 **50% Rule of Thumb: $ 19.2** (Direct Costs, Gross Margin, Average Discount)
 
 **Anmerkung:**
-Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen wurde, ist jene Rechnung nur als Beispielrechnung anzusehen.    
+Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen wurde, ist jene Rechnung nur als Beispielrechnung anzusehen. Zudem wurde nicht berücksichtigt, dass alle Komponenten in einer smart watch verbaut werden sollen    
 
 # Sonstiges
 
@@ -301,3 +301,103 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - Position: Mitarbeiter bei der Debeka
 - Feedback: 
 	- Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen.
+
+## User Stories
+
+
+## Scrum Use Cases
+
+Product Owner:
+- high level use case & Requirements 
+
+Developer:
+- eval use cases, select => warum gibt es mehrere use cases?
+- evat requirements, select  
+- generate stories  => was sind das für requirements. ich dachte die wurden vom prdocut owner erstellt?
+- generate features => was ist der unterschied zwiscehn feature und story?
+
+## Human Centered Design 
+
+1. Mental Models and Cognitive Mappings
+
+## Market Research
+
+### Size of Market
+- Aufgrund der Krankenversicherungspflicht sind alle 80 Mio Menschen in Dt versichter
+- 8.7 Mio sind privat versichert, der Rest ist gesetzlich versichert
+. Quelle: "Seit dem 1. Januar 2009 besteht gemäß § 193 III VVG die Allgemeine Krankenversicherungspflicht, demnach sich alle Personen mit Wohnsitz in Deutschland bei einem in Deutschland zugelassenen Krankenversicherer gegen Krankheitskosten versichern müssen"
+- Quelle: https://de.statista.com/statistik/daten/studie/155823/umfrage/gkv-pkv-mitglieder-und-versichertenzahl-im-vergleich/
+
+- potentielle Kunden:  
+- Alter: 18, 23, 25 (Mit 18 Jahren fallen sie aus der Familienversicherung. Ausnahme Studenten, welche mit 25 Jahren aus der Versicherung fallen.)
+- Bevölkerung Alter 18 bis 25: 7.286.000 
+- Quelle: https://www.zinsen-berechnen.de/geld-kinder/versicherungen.php 
+- Quelle: https://de.statista.com/statistik/daten/studie/1351/umfrage/altersstruktur-der-bevoelkerung-deutschlands/
+
+- Preis einer Appliance habe ich nur beispielhaft berechnen können => Markt Volumen in Euro kann ich dementsprechend nicht bestimmen
+
+### Growth of Market
+- Bevölerkungsgruppe der 18 bis 25 Jährigen wird von Jahr zu Jahr kleiner => Schrumpfender Markt
+Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/
+
+### Market Potential 
+- alle Krankenverischerungen => alle Kunden im Alter von 18-25 => Monopol (economy of scale wegen Plattform)
+
+### Competetitors
+- Domain name healthcoin steht zum verkauf 
+- https://heathcoin.com/de-de
+
+- es hat eigt jede größere versicherung ein bonusprogramm am laufen. Nur ist dies meistens noch nicht digitlaisiert und die punkte kann man auch nur für bestimmte dinge einlösen. Es existiert noch kein Bonumspunkte system wie payback was überall gilt. das kann via blockchain geschaffen werden.
+- Quelle:https://www.n-tv.de/ratgeber/Lohnt-sich-das-Punktesammeln-article16795776.html
+
+https://www.healthmiles.de/index.html
+SECURVITA Krankenkasse
+
+tk bonus programm 
+	- geht in die gleiche richtung
+https://www.tk.de/techniker/service/gesundheit-und-medizin/praevention-und-frueherkennung/tk-bonusprogramm/programm-2010356
+
+- das gleiche was payback groß gemacht hat, die economy of scale, kann auch die heathcoin groß machen. sogar noch größer als payback da durch die blockchain als dezentrale vertrauenswürdige technologie die hemmnise dem konsortium beizutreten und eine kritische masse zu generieren och geringer sind 
+https://www.payback.net/de/ueber-payback/
+
+### Problems entering the market
+- angewiesen auf krankenversicherungen oder arbeitgeber - wir können die appliance nicht selbst an endkunden verkaufen da wir nicht von der gesundheit der endkunden profitieren und demnach keine gegneleistungen für die healthcoins anbieten könnten
+- Datenschutz im Bereich Gesundheitsdaten spiele eine große Rolle
+
+## How do you make Business
+
+Software ist umsonst,
+
+Hardware = zb. smart watch muss von Krankenverischerungen besorgt werden
+
+subscription und pay as you go:
+- auf der blockchain bin ich eine authority welche entscheided wer für wie lange wie viele heathcoins schürfen darf.	
+- die krankenversicherungen müssen somit lizenzgebühren für die public private key pairs zahlen mit welchen sie für ihre kunden healthcoins schaffen können
+- zusätzlich müssen sie für jede tx zahlen mit der healthcoins überwiesen wurde. Sprich Betrag ist abhängig davon wie viel ihre Kudnen laufen.
+
+## Growth Strategy
+
+- würde ich nur subscriptions anbieten, dann könnte ich kein wachstum erzeugen, da es ein schrumpfender markt ist (18-25 jährigen werden weniger)
+- ich veridene an der anzahl an tx  => growth => growth of #tx
+- economy of scale: je größer die plattform ist desto attraktiver werden die healthcoins für die nutzer und desto mehr tx werden getätigt
+=> Konsortium an KV und Unternhemen welche die healthcoins akzeptieren vergrößern, damit #tx wächst und ich mehr profit mache
+
+# Struktur
+
+1. Find & Discover
+2. Empathize
+
+## Find initial Idea
+
+### 10+10 Method
+
+## Explore & Understand
+
+### Emphatize: Interview
+
+- Fehler: ich habe die appliance erklärt und feedback bekommen. ich hätte nur die user story beschreiben solle => wollte ihr von krankenkassen für joggen bezahlt werden. würde ihr zu so einer krankenkasse wechseln.
+
+## Define
+
+- Fehler: ich habe meine vielen alternativen ideen schon vor dem Empathize Schritt ausgeschlossen. Erst hier hätte ich auf basis von den Daten, zu einer Entscheidung kommen sollen. 
+
