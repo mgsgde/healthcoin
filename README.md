@@ -63,7 +63,6 @@ Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich al
 
 Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
 
-
 # Business Model
 
  ![Image of components](/images/healthcoin.businessmodelcanvas.jpg)
@@ -160,11 +159,98 @@ Quelle: http://groups.umd.umich.edu/cis/course.des/cis525/js/f00/kutcher/kutcher
 **Anmerkung:**
 Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen wurde, ist jene Rechnung nur als Beispielrechnung anzusehen. Zudem wurde nicht berücksichtigt, dass alle Komponenten in einer smart watch verbaut werden sollen    
 
-# Sonstiges
+# Kommunikations-Protokolle und Technologien
 
-## Problemfindung mit der 10+10 Methode
-(based on the principle of the Design Council Design Thinking Process: First diverge, then converge)
+## Interface: Arduino to ESP32 Modul
 
+**UART - Universal Asynchronous Receiver Transmitter** 
+
+- communication is serial
+- communication is asynchronous = no clock
+- bidirectional => only two devices
+- two cables for transmitting, receiving signals
+- Format: Startbit, 7xDatabits, ParityBit, EndBit
+
+**Pro:**
+- Simple hardware to connect two devices with only two cables
+
+**Contra:**
+- Langsamer als I2C (maximal 115200 Bit/Second (UART) vs 3.2 Mega Bit/Second (I2C))
+- not a bus => only two devices can communicate with each other
+- Baudrate needs to be manually implemented on all devices
+
+**Sources:**
+- https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
+- https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
+- https://www.arduino.cc/en/Reference/softwareSerial
+- https://www.youtube.com/watch?v=ZzRXKDkMBhA
+- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
+
+
+## Interface: Arduino to Accelerometer
+
+**I2C - Inter Integrated Circuit**
+
+- communcation is synchronous => Clock Line
+- communcation is serial
+- bus => multiple devices can communicate 
+	- master / slave: 
+		- master controles Clock line
+		- master is the only one that can initiate a transfer 
+		- master can read and write to/from slave => data transfer can happen in both directions
+- Format Writing: Start bit, typically 7 bits for addresses, Write Bit, Register Number, Write Data bytes, Stopbit
+- Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, register address, >>Read Data bytes<<, Stopbit
+- I2C level shifters which can be used to connect to two I2C buses with different voltages.
+
+**Pro:**
+- bus => multiple devices 
+- faster than UART
+
+**Contra:**
+- more complex than UART
+
+**Sources:**
+- https://robot-electronics.co.uk/i2c-tutorial
+- https://www.youtube.com/watch?v=DsSBTYbXAKg
+- https://learn.sparkfun.com/tutorials/i2c/all
+- https://en.wikipedia.org/wiki/Clock_signal
+- https://www.youtube.com/watch?v=wx0NyUfpm48
+- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
+
+
+
+
+
+## User Stories
+
+
+## Scrum Use Cases
+
+Product Owner:
+- high level use case & Requirements 
+
+Developer:
+- eval use cases, select => warum gibt es mehrere use cases?
+- evat requirements, select  
+- generate stories  => was sind das für requirements. ich dachte die wurden vom prdocut owner erstellt?
+- generate features => was ist der unterschied zwiscehn feature und story?
+
+## Human Centered Design 
+
+1. Mental Models and Cognitive Mappings
+
+
+
+
+
+# Struktur
+
+1. Find & Discover
+2. Empathize
+
+# Unified Design Thinking Model
+
+## 1. Discover: Problemfindung mit der 10+10 Methode 
 
 1. Economy of things (e.g. auto bezahlt automatisch die elade säule, pay per use werkzeug/machine)
 - Engineer: 6
@@ -229,100 +315,25 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - Production: 2
 - Marketing: 7
 - User: 7
- 
-## Technologie
 
-### Interface: Arduino to ESP32 Modul
+## 2. Emphatize: 
 
-**UART - Universal Asynchronous Receiver Transmitter** 
-
-- communication is serial
-- communication is asynchronous = no clock
-- bidirectional => only two devices
-- two cables for transmitting, receiving signals
-- Format: Startbit, 7xDatabits, ParityBit, EndBit
-
-**Pro:**
-- Simple hardware to connect two devices with only two cables
-
-**Contra:**
-- Langsamer als I2C (maximal 115200 Bit/Second (UART) vs 3.2 Mega Bit/Second (I2C))
-- not a bus => only two devices can communicate with each other
-- Baudrate needs to be manually implemented on all devices
-
-**Sources:**
-- https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
-- https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
-- https://www.arduino.cc/en/Reference/softwareSerial
-- https://www.youtube.com/watch?v=ZzRXKDkMBhA
-- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
-
-
-### Interface: Arduino to Accelerometer
-
-**I2C - Inter Integrated Circuit**
-
-- communcation is synchronous => Clock Line
-- communcation is serial
-- bus => multiple devices can communicate 
-	- master / slave: 
-		- master controles Clock line
-		- master is the only one that can initiate a transfer 
-		- master can read and write to/from slave => data transfer can happen in both directions
-- Format Writing: Start bit, typically 7 bits for addresses, Write Bit, Register Number, Write Data bytes, Stopbit
-- Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, register address, >>Read Data bytes<<, Stopbit
-- I2C level shifters which can be used to connect to two I2C buses with different voltages.
-
-**Pro:**
-- bus => multiple devices 
-- faster than UART
-
-**Contra:**
-- more complex than UART
-
-**Sources:**
-- https://robot-electronics.co.uk/i2c-tutorial
-- https://www.youtube.com/watch?v=DsSBTYbXAKg
-- https://learn.sparkfun.com/tutorials/i2c/all
-- https://en.wikipedia.org/wiki/Clock_signal
-- https://www.youtube.com/watch?v=wx0NyUfpm48
-- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
-
-## Ideate: Alternative Lösungsmöglichen
- ![Image of components](/images/ideateLösungen.healthcoin.jpg)
-
-## First Sketch
+### 2.1 First Sketch
  ![Image of components](/images/sketch.healthcoin.jpg)
 
+### 2.2 User Stories
 
-## Experten / Kunden Meinungen
+- Ich bin ein 25 Jahre alter sportlicher und technik begeisterter Student. Da ich mich nicht mehr über meine Eltern versichern kann, bin ich auf der Suche nach einer neuen coolen Krankenversicherung.   
+- Ich bin jung und sportlich. Da ich regelmäßig joggen gehe möchte ich weniger für meine Krankenkasse bezahlen als mein Arbeitskollege, der keinerlei Sport betreibt. 
 
-- Name: Unbekannt
-- Position: Mitarbeiter bei der Debeka
-- Feedback: 
-	- Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen.
+### 2.3 Experten Meinung
 
-## User Stories
+- Mitarbeiter bei der Debeka
+- Feedback: Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen.
 
+### 2.4 Market Research
 
-## Scrum Use Cases
-
-Product Owner:
-- high level use case & Requirements 
-
-Developer:
-- eval use cases, select => warum gibt es mehrere use cases?
-- evat requirements, select  
-- generate stories  => was sind das für requirements. ich dachte die wurden vom prdocut owner erstellt?
-- generate features => was ist der unterschied zwiscehn feature und story?
-
-## Human Centered Design 
-
-1. Mental Models and Cognitive Mappings
-
-## Market Research
-
-### Size of Market
+#### 2.4.1 Size of Market
 - Aufgrund der Krankenversicherungspflicht sind alle 80 Mio Menschen in Dt versichter
 - 8.7 Mio sind privat versichert, der Rest ist gesetzlich versichert
 . Quelle: "Seit dem 1. Januar 2009 besteht gemäß § 193 III VVG die Allgemeine Krankenversicherungspflicht, demnach sich alle Personen mit Wohnsitz in Deutschland bei einem in Deutschland zugelassenen Krankenversicherer gegen Krankheitskosten versichern müssen"
@@ -336,37 +347,39 @@ Developer:
 
 - Preis einer Appliance habe ich nur beispielhaft berechnen können => Markt Volumen in Euro kann ich dementsprechend nicht bestimmen
 
-### Growth of Market
+#### 2.4.1 Growth of Market
 - Bevölerkungsgruppe der 18 bis 25 Jährigen wird von Jahr zu Jahr kleiner => Schrumpfender Markt
 Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/
 
-### Market Potential 
+#### 2.4.2 Market Potential 
 - alle Krankenverischerungen => alle Kunden im Alter von 18-25 => Monopol (economy of scale wegen Plattform)
 
-### Competetitors
+#### 2.4.3 Competetitors
 - Domain name healthcoin steht zum verkauf 
 - https://heathcoin.com/de-de
 
 - es hat eigt jede größere versicherung ein bonusprogramm am laufen. Nur ist dies meistens noch nicht digitlaisiert und die punkte kann man auch nur für bestimmte dinge einlösen. Es existiert noch kein Bonumspunkte system wie payback was überall gilt. das kann via blockchain geschaffen werden.
 - Quelle:https://www.n-tv.de/ratgeber/Lohnt-sich-das-Punktesammeln-article16795776.html
 
-https://www.healthmiles.de/index.html
-SECURVITA Krankenkasse
+- https://www.healthmiles.de/index.html
+- SECURVITA Krankenkasse
 
-tk bonus programm 
-	- geht in die gleiche richtung
+- tk bonus programm 
+- geht in die gleiche richtung
 https://www.tk.de/techniker/service/gesundheit-und-medizin/praevention-und-frueherkennung/tk-bonusprogramm/programm-2010356
 
 - das gleiche was payback groß gemacht hat, die economy of scale, kann auch die heathcoin groß machen. sogar noch größer als payback da durch die blockchain als dezentrale vertrauenswürdige technologie die hemmnise dem konsortium beizutreten und eine kritische masse zu generieren och geringer sind 
 https://www.payback.net/de/ueber-payback/
 
-### Problems entering the market
+### 2.4.4 Problems entering the market
 - angewiesen auf krankenversicherungen oder arbeitgeber - wir können die appliance nicht selbst an endkunden verkaufen da wir nicht von der gesundheit der endkunden profitieren und demnach keine gegneleistungen für die healthcoins anbieten könnten
 - Datenschutz im Bereich Gesundheitsdaten spiele eine große Rolle
 
-## How do you make Business
+- Fehler: ich habe die appliance erklärt und feedback bekommen. ich hätte nur die user story beschreiben solle => wollte ihr von krankenkassen für joggen bezahlt werden. würde ihr zu so einer krankenkasse wechseln.
 
-Software ist umsonst,
+## 2.5 How do you make Business
+
+Software ist umsonst,	
 
 Hardware = zb. smart watch muss von Krankenverischerungen besorgt werden
 
@@ -375,29 +388,14 @@ subscription und pay as you go:
 - die krankenversicherungen müssen somit lizenzgebühren für die public private key pairs zahlen mit welchen sie für ihre kunden healthcoins schaffen können
 - zusätzlich müssen sie für jede tx zahlen mit der healthcoins überwiesen wurde. Sprich Betrag ist abhängig davon wie viel ihre Kudnen laufen.
 
-## Growth Strategy
+## 2.6 Growth Strategy
 
 - würde ich nur subscriptions anbieten, dann könnte ich kein wachstum erzeugen, da es ein schrumpfender markt ist (18-25 jährigen werden weniger)
 - ich veridene an der anzahl an tx  => growth => growth of #tx
 - economy of scale: je größer die plattform ist desto attraktiver werden die healthcoins für die nutzer und desto mehr tx werden getätigt
 => Konsortium an KV und Unternhemen welche die healthcoins akzeptieren vergrößern, damit #tx wächst und ich mehr profit mache
 
-# Struktur
+### 3. Ideate: Alternative Lösungsmöglichen
+ ![Image of components](/images/ideateLösungen.healthcoin.jpg)
 
-1. Find & Discover
-2. Empathize
-
-## Find initial Idea
-
-### 10+10 Method
-
-## Explore & Understand
-
-### Emphatize: Interview
-
-- Fehler: ich habe die appliance erklärt und feedback bekommen. ich hätte nur die user story beschreiben solle => wollte ihr von krankenkassen für joggen bezahlt werden. würde ihr zu so einer krankenkasse wechseln.
-
-## Define
-
-- Fehler: ich habe meine vielen alternativen ideen schon vor dem Empathize Schritt ausgeschlossen. Erst hier hätte ich auf basis von den Daten, zu einer Entscheidung kommen sollen. 
 
