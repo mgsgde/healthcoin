@@ -258,37 +258,33 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 
 - ESP32 ESP-WROOM-32 IoT Wifi Wlan BLE Module+ESP-32S Adapter Board
 - $ 3.31
-- https://www.aliexpress.com/item/ESP32-ESP-WROOM-32-IoT-Wifi-Wlan-BLE-Module-ESP-32S-Adapter-Board/32933002394.html?spm=2114.search0104.3.50.7fd04071oSosfn&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=68ce317f-37a6-4a4d-b34a-fa940a8ac824-7&algo_pvid=68ce317f-37a6-4a4d-b34a-fa940a8ac824&transAbTest=ae803_4
+- Quelle: https://www.aliexpress.com
 
 ---
 
 - GY-521 MPU-6050 MPU6050 Module 3 Axis analog gyro sensors+ 3 Axis Accelerometer Module
 - $ 0.75 
-- https://www.aliexpress.com/item/GY-521-MPU-6050-MPU6050-Module-3-Axis-analog-gyro-sensors-3-Axis-Accelerometer-Module/32340949017.html?spm=2114.search0104.3.8.63c949ed4h7aSp&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=5114bb66-3998-43bd-b022-20f72bad94e3-1&algo_pvid=5114bb66-3998-43bd-b022-20f72bad94e3&transAbTest=ae803_4
-
+- Quelle: https://www.aliexpress.com
 ---
 
 - 4 Channel Bi-Directional Logic Level Shifter Converter 3.3V-5V Logics Level Converter
 - $ 0.25
-- https://www.aliexpress.com/item/5-Sets-4-Channel-Bi-Directional-Logic-Level-Shifter-Converter-3-3V-5V-Logics-Level-Converter/32848959234.html?spm=2114.search0104.3.2.6d4e2850Eu0I2U&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=094347ef-1172-4a1a-a7ef-c9e773d14bf9-0&algo_pvid=094347ef-1172-4a1a-a7ef-c9e773d14bf9&transAbTest=ae803_4
-
+- Quelle: https://www.aliexpress.com
 ---
 
 - 1PCS LCD1602 1602 module green screen 16x2 Character LCD Display Module.1602 5V green screen and white code for arduino
 - $ 1.15
-- https://www.aliexpress.com/item/1PCS-LCD1602-1602-module-green-screen-16x2-Character-LCD-Display-Module-1602-5V-green-screen-and/32511014601.html?spm=2114.search0104.3.3.62dd467ePZvqBS&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=26e40325-e1a7-4578-aba7-82c972c54083-0&algo_pvid=26e40325-e1a7-4578-aba7-82c972c54083&transAbTest=ae803_4
-
+- Quelle: https://www.aliexpress.com
 ---
 
 - 2 Pack Brand New SUPER Big Capacity AA 1.5V lithium iron batteries.High power Long shelf life digital Camera, radio ba
 - $ 3.56
-- https://www.aliexpress.com/item/4pack-Brand-New-SUPER-Big-Capacity-AA-1-5V-lithium-iron-batteries-High-power-Long-shelf/32797360857.html?spm=2114.search0104.3.2.56ea2481ZcuRtZ&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=51701e1b-58f6-48f3-8f10-b921fe9e9e89-0&algo_pvid=51701e1b-58f6-48f3-8f10-b921fe9e9e89&transAbTest=ae803_4
-
+- Quelle: https://www.aliexpress.com
 ---
 
 - AA Size Power Battery Storage Case Box Holder Leads With 2 Slots
 - $ 0.58 
-- https://www.aliexpress.com/item/AA-Size-Power-Battery-Storage-Case-Box-Holder-Leads-With-1-2-3-4-Slots/32818907820.html?spm=2114.search0104.3.1.ff0543fdDNmUl3&ws_ab_test=searchweb0_0,searchweb201602_3_10320_10065_10068_10547_319_10548_317_10696_453_10084_454_10083_10618_431_10304_10307_10820_10821_537_10302_536_10843_10059_10884_5736015_10887_100031_10319_321_322_10103_5736115,searchweb201603_70,ppcSwitch_0&algo_expid=354096f6-633a-46ac-98cb-a2b1f7b8ef82-0&algo_pvid=354096f6-633a-46ac-98cb-a2b1f7b8ef82&transAbTest=ae803_4
+- Quelle: https://www.aliexpress.com
 
 **Total Costs: $ 9.60** 
 
