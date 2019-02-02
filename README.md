@@ -236,7 +236,7 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 - Ursprung und Alter der Trainingsdaten zur Bestimmung der Parameter nicht bekannt 
 - Güte des Systems nicht spezifiert
 
-### 6.3 Pricing mit 50% Rule of Thumb Regel
+### 6.3 Bepreisung mit 50% Daumenregel
 
 **Hardware Costs:** 
 
@@ -277,7 +277,7 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 **Anmerkung:**
 Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfachen Handhabe und Verfügbarkeit getroffen wurde, ist jene Rechnung nur als Beispielrechnung anzusehen. Zudem wurde nicht berücksichtigt, dass alle Komponenten in einer smart watch verbaut werden sollen    
 
-### 6.4 Business Model
+### 6.4 Geschäftsmodell
 
  ![Image of components](/images/healthcoin.businessmodelcanvas.jpg)
 
@@ -292,60 +292,3 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - Derek Jones hat Fehler in der orginalen Analyse aufgedeckt (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
 - Annahme der Linearität nicht bewiesen?
 
-## Kommunikations-Protokolle und Technologien
-
-### Interface: Arduino to ESP32 Modul
-
-**UART - Universal Asynchronous Receiver Transmitter** 
-
-- communication is serial
-- communication is asynchronous = no clock
-- bidirectional => only two devices
-- two cables for transmitting, receiving signals
-- Format: Startbit, 7xDatabits, ParityBit, EndBit
-
-**Pro:**
-- Simple hardware to connect two devices with only two cables
-
-**Contra:**
-- Langsamer als I2C (maximal 115200 Bit/Second (UART) vs 3.2 Mega Bit/Second (I2C))
-- not a bus => only two devices can communicate with each other
-- Baudrate needs to be manually implemented on all devices
-
-**Sources:**
-- https://de.wikipedia.org/wiki/Serielle_Daten%C3%BCbertragung
-- https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)
-- https://www.arduino.cc/en/Reference/softwareSerial
-- https://www.youtube.com/watch?v=ZzRXKDkMBhA
-- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
-
-
-### Interface: Arduino to Accelerometer
-
-**I2C - Inter Integrated Circuit**
-
-- communcation is synchronous => Clock Line
-- communcation is serial
-- bus => multiple devices can communicate 
-	- master / slave: 
-		- master controles Clock line
-		- master is the only one that can initiate a transfer 
-		- master can read and write to/from slave => data transfer can happen in both directions
-- Format Writing: Start bit, typically 7 bits for addresses, Write Bit, Register Number, Write Data bytes, Stopbit
-- Format Reading: Start bit, device address (typically 7 bits), Read Bit, Startbit, register address, >>Read Data bytes<<, Stopbit
-- I2C level shifters which can be used to connect to two I2C buses with different voltages.
-
-**Pro:**
-- bus => multiple devices 
-- faster than UART
-
-**Contra:**
-- more complex than UART
-
-**Sources:**
-- https://robot-electronics.co.uk/i2c-tutorial
-- https://www.youtube.com/watch?v=DsSBTYbXAKg
-- https://learn.sparkfun.com/tutorials/i2c/all
-- https://en.wikipedia.org/wiki/Clock_signal
-- https://www.youtube.com/watch?v=wx0NyUfpm48
-- http://www.rfwireless-world.com/Terminology/UART-vs-SPI-vs-I2C.html
