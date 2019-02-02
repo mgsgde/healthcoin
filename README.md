@@ -129,10 +129,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 #### 2.4.6 Growth Strategy
 
-- würde ich nur subscriptions anbieten, dann könnte ich kein wachstum erzeugen, da es ein schrumpfender markt ist (18-25 jährigen werden weniger)
-- ich veridene an der anzahl an tx  => growth => growth of #tx
-- economy of scale: je größer die plattform ist desto attraktiver werden die healthcoins für die nutzer und desto mehr tx werden getätigt
-=> Konsortium an KV und Unternhemen welche die healthcoins akzeptieren vergrößern, damit #tx wächst und ich mehr profit mache
+- je größer die Plattform, desto mehr Transaktionen, desto mehr Profit => Konsortium von Unternehmen die bei Healthcoin mitmachen vergrößern
 
 ## 3. Define: Healthcoin
 
@@ -141,23 +138,23 @@ Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewe
 
 ### 3.2 Key Values
 
-Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen. 
+**Nutzer:**
+- Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen und werden somit für die sportliche Aktivität belohnt 
+- Durch Healthcoins haben Nutzer mehr Spaß am Laufen (Stichwort: Gamification)
 
-Die Healthcoin kann die Nutzer motivieren sich zu bewegen. Mäßige Bewegung fördert die Gesundheit und reduziert somit die Wahrscheinlichkeit der Nutzer krank zu werden. 
+**Krankenversicherungen:**
+- Krankenkassen profitieren von gesünderen Kunden
+- Krankenkassen erhalten mit der Healthcoin eine Schnittstelle zum Kunden
+- Vertriebsgag zur Akquisition von jungen sportlichen Neukunden
+- Krankenkassen können Healthcoins für den Vertrieb von Waren und Dienstleistungen nutzen. 
 
-Arbeitgeber profitieren von den ausbleibenden Kosten für die Krankheitstage. 
+**Arbeitgeber:**
+- Reduktion der Krankheitstage der Mitarbeiter
+- Image => Arbeitnehmer Akquisition
 
-Krankenkassen profitieren von den ausbleibenden Kosten für Arztbesuche und Medikamente.  
-
-Krankenkassen erhalten mit der Healthcoin eine Kundenschnittstelle. 
-
-Unternehmen und Krankenkassen können Healthcoins für den Vertrieb von Waren und Dienstleistungen nutzen. 
-
-Die Healthcoin kann von Krankenkassen als Vertriebs- und Marketingmaßnahme zur Gewinnung neuer Kunden genutzt werden. 
-
-Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu positiven Netzwerkeffekten führen. 
-
-Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
+**Generell:**
+- Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu positiven Netzwerkeffekten führen. 
+- Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
 
 ## 4. Ideate: Alternative Lösungsmöglichen
  ![Image of components](/images/ideateLösungen.healthcoin.jpg)
