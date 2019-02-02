@@ -87,21 +87,21 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 #### 2.4.1 Size of Market & Market Potential
 
 - Aufgrund der Krankenversicherungspflicht sind alle deutsche Staatsangehörige potentielle Kunden der Healthcoin Applikation
-- Quelle: https://de.statista.com/statistik/daten/studie/155823/umfrage/gkv-pkv-mitglieder-und-versichertenzahl-im-vergleich/
+(Quelle: https://de.statista.com/statistik/daten/studie/155823/umfrage/gkv-pkv-mitglieder-und-versichertenzahl-im-vergleich/)
 
 - alle Krankenversicherungen (Plattform Gedanke)  
 - Endkunden im Alter von 18-25 Jahren: 7.286.000 
-- Quelle: https://de.statista.com/statistik/daten/studie/1351/umfrage/altersstruktur-der-bevoelkerung-deutschlands/
+(Quelle: https://de.statista.com/statistik/daten/studie/1351/umfrage/altersstruktur-der-bevoelkerung-deutschlands/)
 
 #### 2.4.2 Growth of Market
 - Bevölerkungsgruppe der 18 bis 25 Jährigen wird von Jahr zu Jahr kleiner => Schrumpfender Markt
-- Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/
+(Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/)
 
 
 #### 2.4.3 Wettbewerber
 
 - Domain name healthcoin.com ist verfügbar 
-- https://heathcoin.com/de-de
+(Quelle: https://heathcoin.com/de-de)
 
 - Jede größere Krankenversicherung betreibt ihr eigenes Bonusprogramm. Die Bonusprogramme sind meistens jedoch noch nicht digitalisiert. Es besteht zudem noch kein einheitliches industrieweites Bonusprogramm (wie z.B. paypal im Bereich des Einzelhandels). Healthcoins können sich dank Blockchain Technologie zu einem industrieweiten Standard entwickeln. 
 (Quelle: https://www.n-tv.de/ratgeber/Lohnt-sich-das-Punktesammeln-article16795776.html, https://www.healthmiles.de/index.html)
