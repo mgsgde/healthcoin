@@ -80,8 +80,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 ### 2.3 Experten Meinung
 
-- Mitarbeiter bei der Debeka
-- Feedback: Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen.
+- Feedback vom Debeka Mitarbeiter: "Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen."
 
 ### 2.4 Market Research
 
