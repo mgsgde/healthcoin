@@ -80,64 +80,52 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 ### 2.3 Experten Meinung
 
-- Feedback vom Debeka Mitarbeiter: "Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen."
+- Feedback von einem Debeka Mitarbeiter: "Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen."
 
 ### 2.4 Market Research
 
-#### 2.4.1 Size of Market
-- Aufgrund der Krankenversicherungspflicht sind alle 80 Mio Menschen in Dt versichter
-- 8.7 Mio sind privat versichert, der Rest ist gesetzlich versichert
-. Quelle: "Seit dem 1. Januar 2009 besteht gemäß § 193 III VVG die Allgemeine Krankenversicherungspflicht, demnach sich alle Personen mit Wohnsitz in Deutschland bei einem in Deutschland zugelassenen Krankenversicherer gegen Krankheitskosten versichern müssen"
+#### 2.4.1 Size of Market & Market Potential
+
+- Aufgrund der Krankenversicherungspflicht sind alle deutsche Staatsangehörige potentielle Kunden der Healthcoin Applikation
 - Quelle: https://de.statista.com/statistik/daten/studie/155823/umfrage/gkv-pkv-mitglieder-und-versichertenzahl-im-vergleich/
 
-- potentielle Kunden:  
-- Alter: 18, 23, 25 (Mit 18 Jahren fallen sie aus der Familienversicherung. Ausnahme Studenten, welche mit 25 Jahren aus der Versicherung fallen.)
-- Bevölkerung Alter 18 bis 25: 7.286.000 
-- Quelle: https://www.zinsen-berechnen.de/geld-kinder/versicherungen.php 
+- alle Krankenversicherungen (Plattform Gedanke)  
+- Endkunden im Alter von 18-25 Jahren: 7.286.000 
 - Quelle: https://de.statista.com/statistik/daten/studie/1351/umfrage/altersstruktur-der-bevoelkerung-deutschlands/
 
-- Preis einer Appliance habe ich nur beispielhaft berechnen können => Markt Volumen in Euro kann ich dementsprechend nicht bestimmen
-
-#### 2.4.1 Growth of Market
+#### 2.4.2 Growth of Market
 - Bevölerkungsgruppe der 18 bis 25 Jährigen wird von Jahr zu Jahr kleiner => Schrumpfender Markt
-Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/
+- Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/
 
-#### 2.4.2 Market Potential 
-- alle Krankenverischerungen => alle Kunden im Alter von 18-25 => Monopol (economy of scale wegen Plattform)
 
-#### 2.4.3 Competetitors
-- Domain name healthcoin steht zum verkauf 
+#### 2.4.3 Wettbewerber
+
+- Domain name healthcoin.com ist verfügbar 
 - https://heathcoin.com/de-de
 
-- es hat eigt jede größere versicherung ein bonusprogramm am laufen. Nur ist dies meistens noch nicht digitlaisiert und die punkte kann man auch nur für bestimmte dinge einlösen. Es existiert noch kein Bonumspunkte system wie payback was überall gilt. das kann via blockchain geschaffen werden.
-- Quelle:https://www.n-tv.de/ratgeber/Lohnt-sich-das-Punktesammeln-article16795776.html
+- Jede größere Krankenversicherung betreibt ihr eigenes Bonusprogramm. Die Bonusprogramme sind meistens jedoch noch nicht digitalisiert. Es besteht zudem noch kein einheitliches industrieweites Bonusprogramm (wie z.B. paypal im Bereich des Einzelhandels). Healthcoins können sich dank Blockchain Technologie zu einem industrieweiten Standard entwickeln. 
+(Quelle: https://www.n-tv.de/ratgeber/Lohnt-sich-das-Punktesammeln-article16795776.html, https://www.healthmiles.de/index.html)
 
-- https://www.healthmiles.de/index.html
-- SECURVITA Krankenkasse
+- Techniker Krankenkasse betreibt ein Bonusprogramm
+(Quelle: https://www.tk.de/techniker/service/gesundheit-und-medizin/praevention-und-frueherkennung/tk-bonusprogramm/programm-2010356)
 
-- tk bonus programm 
-- geht in die gleiche richtung
-https://www.tk.de/techniker/service/gesundheit-und-medizin/praevention-und-frueherkennung/tk-bonusprogramm/programm-2010356
-
-- das gleiche was payback groß gemacht hat, die economy of scale, kann auch die heathcoin groß machen. sogar noch größer als payback da durch die blockchain als dezentrale vertrauenswürdige technologie die hemmnise dem konsortium beizutreten und eine kritische masse zu generieren och geringer sind 
-https://www.payback.net/de/ueber-payback/
+- Payback könnte ebenfalls zu einem Wettbewerber werden
+(Quelle: https://www.payback.net/)
 
 #### 2.4.4 Problems entering the market
-- angewiesen auf krankenversicherungen oder arbeitgeber - wir können die appliance nicht selbst an endkunden verkaufen da wir nicht von der gesundheit der endkunden profitieren und demnach keine gegneleistungen für die healthcoins anbieten könnten
-- Datenschutz im Bereich Gesundheitsdaten spiele eine große Rolle
 
-- Fehler: ich habe die appliance erklärt und feedback bekommen. ich hätte nur die user story beschreiben solle => wollte ihr von krankenkassen für joggen bezahlt werden. würde ihr zu so einer krankenkasse wechseln.
+- Angewiesen auf Krankenversicherungen oder Arbeitgeber, welche bereit sind Geld für ihre Kunden bzw. Arbeitnehmer zu zahlen. Ohne jene Parteien sind die Healthcoins nichts wert.   
+
+- Datenschutz im Bereich Gesundheitsdaten ist bedeutend
 
 #### 2.4.5 How do you make Business
 
-Software ist umsonst,	
-
-Hardware = zb. smart watch muss von Krankenverischerungen besorgt werden
-
-subscription und pay as you go:
-- auf der blockchain bin ich eine authority welche entscheided wer für wie lange wie viele heathcoins schürfen darf.	
-- die krankenversicherungen müssen somit lizenzgebühren für die public private key pairs zahlen mit welchen sie für ihre kunden healthcoins schaffen können
-- zusätzlich müssen sie für jede tx zahlen mit der healthcoins überwiesen wurde. Sprich Betrag ist abhängig davon wie viel ihre Kudnen laufen.
+- gratis Software	
+- Smart Watches werden von Krankenversicherungen finanziert
+- "Subscription": 
+	- Lizenzgebühren für die Keys mit denen die Healthcoins generiert werden können
+"Pay as you go":
+	- Transaktionskosten
 
 #### 2.4.6 Growth Strategy
 
