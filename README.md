@@ -98,7 +98,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 (Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/)
 
 
-#### Wettbewerber
+#### Competitors
 
 - Domain name healthcoin.com ist verfügbar 
 (Quelle: https://heathcoin.com/de-de)
@@ -155,7 +155,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewegungssensoren erfasst die Fitness Aktivitäten einer Person und schickt der Person zur Belohnung regelmäßig via Blockchain Protokoll Tokens. Die Tokens heißen "Healthcoins". Das mobile Endgerät und die Healthcoins werden von Unternehmen herausgegeben werden, welche ein Interesse an der Gesundheit der jeweiligen Person haben (z.B. der Arbeitgeber oder die Krankenkasse). Die Healthcoins können gegen Waren und Dienstleistungen eingetauscht werden (z.B. Waren und Dienstleistungen des Unternehmens-Konsortiums, welches die Healthcoins via Blockchain emittiert). 
 
-## 4. Ideate: Alternative Lösungsmöglichen
+## 4. Ideate: Alternative Lösungsmöglichkeiten
  ![Image of components](/images/ideateLösungen.healthcoin.jpg)
 
 ## 5. Prototype
