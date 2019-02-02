@@ -131,7 +131,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 - je größer die Plattform, desto mehr Transaktionen, desto mehr Profit => Konsortium von Unternehmen die bei Healthcoin mitmachen vergrößern
 
-### 2.4 Key Values
+### 2.5 Key Values
 
 **Nutzer:**
 - Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen und werden somit für die sportliche Aktivität belohnt 
