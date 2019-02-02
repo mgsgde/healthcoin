@@ -291,3 +291,33 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - Derek Jones hat Fehler in der orginalen Analyse aufgedeckt (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
 - Annahme der Linearität nicht bewiesen?
 
+
+## Scrum 
+
+### Product Backlog (Product Owner)
+
+1. Als Nutzer möchte ich für das Laufen einer bestimmten Strecke tokens überwiesen bekommen
+2. Als Nutzer möchte ich sehen wie viel ich noch joggen muss um tokens überwiesen zu bekommen
+3. Als Nutzer möchte ich die Tokens gegen Waren und Diestleistungen eintauschen könnnen
+4. Als Nutzer möchte ich die Anzahl an Tokens die ich bereits bekommen habe einsehen können
+5. Als Nutzer möchte ich die appliance wie eine Uhr am Handegelenk tragen können
+6. Als Nutzer möchte ich die appliance via usb aufladen können
+7. Als Nutzer möchte ich Gewissheit haben, dass meine Daten nicht an fremde Dritte weitergegeben werden
+8. Als Versicherer möchte ich sämtliche Fitness und Token Daten grafisch aufbereitet einsehen können
+
+### Ausgewählte Features für Sprint 1 (Developer) 
+
+#### User Story 1:
+- Als Nutzer möchte ich für das Laufen einer bestimmten Strecke tokens überwiesen bekommen
+	- The Appliance shall count steps
+	- The Appliance shall communicate via wlan with a webserver
+	- The Appliance shall authenticate to the webserver
+	- The Webserver shall send transactions to a Blockchain node
+
+
+#### User Story 2:
+- Als Nutzer möchte ich sehen wie viel ich noch joggen muss um tokens überwiesen zu bekommen
+	- The Appliance shall show the progress of counting steps on a Display
+
+### Definition of Done
+Backlog Item muss im Zuge einer mündlichen Prüfung bzw. eines Pitches funktionieren. Es gebraucht keiner Dokumenation und es gebraucht keiner Unit Tests. 
