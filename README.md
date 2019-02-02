@@ -82,9 +82,9 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 - Feedback von einem Debeka Mitarbeiter: "Krankenkassen unterliegen dem Diskriminierungsverbot und die Appliance diskriminiert unsportliche Menschen."
 
-### 2.4 Market Research
+### 2.4 How do you make Business
 
-#### 2.4.1 Size of Market & Market Potential
+#### Size of Market & Market Potential
 
 - Aufgrund der Krankenversicherungspflicht sind alle deutsche Staatsangehörige potentielle Kunden der Healthcoin Applikation
 (Quelle: https://de.statista.com/statistik/daten/studie/155823/umfrage/gkv-pkv-mitglieder-und-versichertenzahl-im-vergleich/)
@@ -93,12 +93,12 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 - Endkunden im Alter von 18-25 Jahren: 7.286.000 
 (Quelle: https://de.statista.com/statistik/daten/studie/1351/umfrage/altersstruktur-der-bevoelkerung-deutschlands/)
 
-#### 2.4.2 Growth of Market
+#### Growth of Market
 - Bevölerkungsgruppe der 18 bis 25 Jährigen wird von Jahr zu Jahr kleiner => Schrumpfender Markt
 (Quelle: https://de.statista.com/statistik/daten/studie/248090/umfrage/entwicklung-der-bevoelkerungsstruktur-deutschlands-nach-altersgruppen/)
 
 
-#### 2.4.3 Wettbewerber
+#### Wettbewerber
 
 - Domain name healthcoin.com ist verfügbar 
 (Quelle: https://heathcoin.com/de-de)
@@ -112,13 +112,13 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 - Payback könnte ebenfalls zu einem Wettbewerber werden
 (Quelle: https://www.payback.net/)
 
-#### 2.4.4 Problems entering the market
+#### Problems entering the market
 
 - Angewiesen auf Krankenversicherungen oder Arbeitgeber, welche bereit sind Geld für ihre Kunden bzw. Arbeitnehmer zu zahlen. Ohne jene Parteien sind die Healthcoins nichts wert.   
 
 - Datenschutz im Bereich Gesundheitsdaten ist bedeutend
 
-#### 2.4.5 How do you make Business
+#### How do you make Business
 
 - gratis Software	
 - Smart Watches werden von Krankenversicherungen finanziert
@@ -127,7 +127,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 - "Pay as you go":
 	- Transaktionskosten
 
-#### 2.4.6 Growth Strategy
+#### Growth Strategy
 
 - je größer die Plattform, desto mehr Transaktionen, desto mehr Profit => Konsortium von Unternehmen die bei Healthcoin mitmachen vergrößern
 
