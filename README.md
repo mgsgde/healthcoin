@@ -131,12 +131,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 - je größer die Plattform, desto mehr Transaktionen, desto mehr Profit => Konsortium von Unternehmen die bei Healthcoin mitmachen vergrößern
 
-## 3. Define: Healthcoin
-
-### 3.1 Healthcoin
-Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewegungssensoren erfasst die Fitness Aktivitäten einer Person und schickt der Person zur Belohnung regelmäßig via Blockchain Protokoll Tokens. Die Tokens heißen "Healthcoins". Das mobile Endgerät und die Healthcoins werden von Unternehmen herausgegeben werden, welche ein Interesse an der Gesundheit der jeweiligen Person haben (z.B. der Arbeitgeber oder die Krankenkasse). Die Healthcoins können gegen Waren und Dienstleistungen eingetauscht werden (z.B. Waren und Dienstleistungen des Unternehmens-Konsortiums, welches die Healthcoins via Blockchain emittiert). 
-
-### 3.2 Key Values
+### 2.4 Key Values
 
 **Nutzer:**
 - Die Nutzer können die Healthcoins gegen Waren und Dienstleistungen eintauschen und werden somit für die sportliche Aktivität belohnt 
@@ -155,6 +150,10 @@ Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewe
 **Generell:**
 - Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu positiven Netzwerkeffekten führen. 
 - Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
+
+## 3. Define: Healthcoin
+
+Ein mobiles Endgerät (z.B. in der Form einer smart watch) ausgestattet mit Bewegungssensoren erfasst die Fitness Aktivitäten einer Person und schickt der Person zur Belohnung regelmäßig via Blockchain Protokoll Tokens. Die Tokens heißen "Healthcoins". Das mobile Endgerät und die Healthcoins werden von Unternehmen herausgegeben werden, welche ein Interesse an der Gesundheit der jeweiligen Person haben (z.B. der Arbeitgeber oder die Krankenkasse). Die Healthcoins können gegen Waren und Dienstleistungen eingetauscht werden (z.B. Waren und Dienstleistungen des Unternehmens-Konsortiums, welches die Healthcoins via Blockchain emittiert). 
 
 ## 4. Ideate: Alternative Lösungsmöglichen
  ![Image of components](/images/ideateLösungen.healthcoin.jpg)
