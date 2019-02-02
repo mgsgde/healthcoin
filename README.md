@@ -124,7 +124,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 - Smart Watches werden von Krankenversicherungen finanziert
 - "Subscription": 
 	- Lizenzgebühren für die Keys mit denen die Healthcoins generiert werden können
-"Pay as you go":
+- "Pay as you go":
 	- Transaktionskosten
 
 #### 2.4.6 Growth Strategy
