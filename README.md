@@ -314,7 +314,6 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 	- The Appliance shall authenticate to the webserver
 	- The Webserver shall send transactions to a Blockchain node
 
-
 #### User Story 2:
 - Als Nutzer möchte ich sehen wie viel ich noch joggen muss um tokens überwiesen zu bekommen
 	- The Appliance shall show the progress of counting steps on a Display
