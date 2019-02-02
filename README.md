@@ -4,7 +4,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 ## 1. Discover: Problemfindung mit der 10+10 Methode 
 
-1. Economy of things (e.g. auto bezahlt automatisch die elade säule, pay per use werkzeug/machine)
+1. Economy of things (z.B. bezahlt ein Auto automatisch eine E-Ladesäule, Pay per Use Verfahren für Maschinen)
 - Engineer: 6
 - Managmenet: 3
 - Production: 5
@@ -14,17 +14,17 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 ---
 
 
-2. Hardware wallet (arduino stores private key and is capable of signing tx)
+2. Hardware wallet (arduino speichert private key zur Signierung von Transktionen )
 - Engineer: 6
 - Managmenet: 10
 - Production: 8
 - Marketing: 10
 - User: 10
-- **Aber existiert bereits.**
+- **Existiert bereits.**
 
 ---
 
-3. Appliance welche schritte zählt und falls eine schrittzahl erreicht wurde krypto geld an träger auszahlt.  
+3. Gerät welches Schritte zählt und bei Erreichen einer Mindest-Schrittanzahl Crypto-Geld an den Nutzer auszahlt.  
 - Engineer: 7
 - Managmenet: 5
 - Production: 7
@@ -33,7 +33,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 ---
 
-4. Blockchain door opener that opens when crypto coins are sent to a smart contract (e.g. rent cars, pay rent for apartment ...) 
+4. Gerät welches Türen öffnet sobald Crypto-Geld überwiesen wurde (z.B. Car Sharing, Hotelzimmer ...) 
 - Engineer: 6
 - Managmenet: 3
 - Production: 4
@@ -42,7 +42,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 ---
 
-5. Appliance die an einem Boxhandschuh befestigt wird und geschwindigkeit und beschleunigung misst
+5. Gerät, welches an einem Boxhandschuh befestigt ist und geschwindigkeit und beschleunigung misst.
 - Engineer: 9
 - Managmenet: 10
 - Production: 9
@@ -51,17 +51,17 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 
 ---
 
-6. Appliance welche via GPS Geräte tracked
+6. Gerät welches via GPS Geräte ortet.
 - Engineer: 8
 - Managmenet: 7
 - Production: 7
 - Marketing: 7
 - User: 8
-- **Aber existiert bereits.**
+- **Existiert bereits.**
 
 ---
 
-7. LED Weihnachts Beleuchtung. welche einen QR code oder URL anzeigen kann. Der QR code bzw die URL verweisen auf eine crypto Adresse, an welcher man crypto coins zahlen kann. Wenn eine Zahlung eintrifft dann geht die Lichterkette an und ein random Programm wird abgespielt
+7. LED Weihnachts Beleuchtung, welche einen QR code oder URL anzeigen kann. Der QR code bzw die URL verweisen auf eine Crypto-Adresse, an welche man crypto Geld zahlen kann. Wenn eine Zahlung eintrifft, dann geht die Lichterkette an und ein Lichtspiel wird abgespielt
 - Engineer: 5
 - Managmenet: 10
 - Production: 2
