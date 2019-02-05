@@ -148,7 +148,7 @@ Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnolog
 - Image => Arbeitnehmer Akquisition
 
 **Generell:**
-- Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu positiven Netzwerkeffekten führen. 
+- Die dezentrale Blockchain Technologie kann es der Healthcoin erleichtern sich als Branchenstandard durchzusetzen. Dies kann widerum zu positiven Netzwerkeffekten führen (Stichwort: Metcalfs Law). 
 - Die Dokumentation von Fitness Aktivitäten auf der Blockchain in Form von Healthcoins kann der erste Schritt sein in Richtung einer digitalen Gesundheitsakte. 
 
 ## 3. Define: Healthcoin
@@ -217,6 +217,8 @@ Die Auswahl der Komponenten wurde in erster Linie unter dem Gesichtspunkt der ei
 1. arduino to esp32 module
 2. esp32 module to werbserver
 3. webserver to blockchain node
+4. arduino to LCD Display
+5. arduino to Accelerometer
 
 **Algorithms:**
 1. step counting algorithms
@@ -289,7 +291,7 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 - Boehm hat die Regression mit 64 bzw 161 Messungen durchgeführt. Für so ein komplexes Problem sind das viel zu wenige Messungen.
 - Derekt Jones kam zu anderen Ergebnissen, so hat boehm z.B. die outlier nicht berücksichtigtg (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
 - Derek Jones hat Fehler in der orginalen Analyse aufgedeckt (http://shape-of-code.coding-guidelines.com/2016/05/19/cocomo-how-not-to-fit-a-model-to-data/)
-- Annahme der Linearität nicht bewiesen?
+- Annahme eines Polynomiellen Zusammenhanges nicht bewiesen?
 
 
 ## Scrum 
@@ -320,3 +322,29 @@ Da die Auswahl der Komponenten in erster Linie unter dem Gesichtspunkt der einfa
 
 ### Definition of Done
 Backlog Item muss im Zuge einer mündlichen Prüfung bzw. eines Pitches funktionieren. Es gebraucht keiner Dokumenation und es gebraucht keiner Unit Tests. 
+
+
+### Human Centered Design
+
+- Mental Model:
+	- Smartphone, welches wie eine herkömmliche Uhr getragen wird
+
+- Feedback:
+	- Fehlermeldungen via screen anzeige
+
+- How does a user pick up information:
+	- visual
+	- vibration
+
+- What can go wrong
+	- kein bluetooth bzw. wifi
+
+- unterbewusste Prozess
+	- auf Uhr schauen => sollte wahrscheinlich als Startbildschirm die Uhrzeit anzeigen
+
+- bewusste Prozesse 
+	- Handy Wallet installieren
+	- Healthcoins an der Kasse einlösen via Hand Wallet
+
+- Design Model:
+	- Experience & Interaction
