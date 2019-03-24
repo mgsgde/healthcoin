@@ -1,6 +1,5 @@
 
 # Healthcoin 
-Folgendes Projekt wurde im Zuge der Vorlesung "Ubiquitäre Informationstechnologien" (gehalten von Prof. Dr. Michael Beigl) erstellt. Mit dem **Unified Design Thinking Model** wurde die Healthcoin Idee erarbeitet.
 
 ## Funktionsweise
 
