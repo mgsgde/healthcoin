@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
  
-const char* ssid = "Honor6X2";
+const char* ssid = "<<ssid>>";
 int status = WL_IDLE_STATUS;     
 
 void setup() {
@@ -32,7 +32,7 @@ void loop() {
             
                 HTTPClient http;
              
-                http.begin("http://35.234.112.203/sendTokens"); 
+                http.begin("http://<<ip from server>>/sendTokens"); 
 
                 int httpCode = http.POST("Empty Body"); 
              
